@@ -4,6 +4,11 @@
 {{/if_eq}}
 import Vue from 'vue'
 import App from './App'
+import '@/common/stylus/index.styl'
+//处理移动端click事件300毫秒延迟 
+import fastclick from 'fastclick'
+// 淘宝移动端方案
+import 'lib-flexible/flexible.js'
 {{#router}}
 import router from './router'
 {{/router}}
